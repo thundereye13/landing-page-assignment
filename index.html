@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Dev Academy</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🎮 GameDev</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h2>Build Your Dream Games 🚀</h2>
+  <p>Learn Unity & C# from scratch and become a pro game developer</p>
+  <button onclick="startLearning()">Start Learning</button>
+</section>
+
+<section class="features" id="features">
+  <div class="card" onclick="featureClick('Unity Engine')">
+    <h3>🎮 Unity Engine</h3>
+    <p>Create 2D & 3D games easily</p>
+  </div>
+
+  <div class="card" onclick="featureClick('C# Coding')">
+    <h3>💻 C# Coding</h3>
+    <p>Learn coding with real projects</p>
+  </div>
+
+  <div class="card" onclick="featureClick('Career Growth')">
+    <h3>🚀 Career Growth</h3>
+    <p>Build portfolio & get jobs</p>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <h2>Join Now & Start Your Journey</h2>
+  <button onclick="enrollNow()">Enroll Now</button>
+</section>
+
+<footer>
+  <p>© 2026 Game Dev Academy | Made by You 😎</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
